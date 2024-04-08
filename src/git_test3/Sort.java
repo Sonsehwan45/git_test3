@@ -12,10 +12,6 @@ public class Sort {
     }
 
     static int partition(int[] a, int start, int end) {
-        // TODO: partition 알고리즘을 구현해야 함
-    }
-
-    static int partition(int[] a, int start, int end) {
         int value = a[end];
         int i = start - 1;
         for (int j = start; j <= end - 1; ++j)
